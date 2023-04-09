@@ -1,0 +1,68 @@
+.next-extended-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.next-extended-container svg {
+    width: 220px;
+}
+input {
+    outline: none;
+    height: 22px;
+    font-family: 'General Sans', sans-serif;
+    padding: 13px;
+    margin-top: 5px;
+    width: 330px;
+    font-size: 18px;
+    border: 1.5px solid #0072f5;
+}
+body {
+    font-family: 'General Sans', sans-serif;
+    user-select: none;
+}
+button {
+    height: 50.5px;
+    padding: 14px 25px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: 'General Sans', sans-serif;
+    font-weight: bold;
+    vertical-align: top;
+    background: #0072f5;
+    border: none;
+    color: #fff;
+}
+.creator-content {
+    margin: 6px 0;
+}
+.creator-content a {
+ color: #000;
+}
+.card_item {
+    width: 300px;
+    height: 400px;
+    margin-top: 5vh;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.card_item h2 {
+    margin: 5px 0;
+    padding: 0 15px;
+}
+.card_item p {
+    margin: 5px 0;
+    font-size: 18px;
+    padding: 0 15px;
+}
+.card_item img {
+    pointer-events: none;
+   border-top-right-radius: 12px;
+   border-top-left-radius: 12px;
+    width: 100%;
+}
